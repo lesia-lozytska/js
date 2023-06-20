@@ -1,0 +1,48 @@
+.Header {
+  height: 200px;
+  position: relative;
+}
+
+.button {
+  margin: 0 -50% 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#button1 {
+  color: #043540;
+  text-align: center;
+  cursor: pointer;
+  background-color: #7cf4ec;
+  border: none;
+  border-radius: 8px;
+  width: 250px;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button1:hover {
+  color: #fff;
+  background-color: #0ed2e4;
+  box-shadow: 0 12px 16px #0000003d, 0 20px 50px #00000030;
+}
+
+.DataTable {
+  height: 200px;
+  display: flex;
+  position: relative;
+}
+
+.Data {
+  margin: 0 -50% 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */

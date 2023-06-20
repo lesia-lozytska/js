@@ -1,0 +1,20 @@
+html, body {
+  border: 0;
+  margin: 0;
+  padding: 500px;
+  top: 500px;
+  left: 500px;
+}
+
+#button1 {
+  color: #fff;
+  text-align: center;
+  background-color: #4caf50;
+  border: none;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=styles.1303bb05.css.map */
