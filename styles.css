@@ -1,17 +1,43 @@
-html,body {
-    margin: 0px;
-    padding: 500px;
-    border: 0px;
-    left: 500px;
-    top: 500px;
-    }
-button {
-    background-color: #4CAF50; /* Green */
+.Header {
+    height: 200px;
+    position: relative;
+  }
+.button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#button1 {
+    background-color: #7cf4ec; /* Green */
     border: none;
-    color: white;
+    color: rgb(4, 53, 64);
+    width: 250px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
 }
+#button1:hover {
+    background-color: #0ed2e4; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 20px 50px 0 rgba(0,0,0,0.19);
+}
+
+.DataTable {
+    height: 200px;
+    position: relative;
+    display: flex;
+  }
+.Data {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
