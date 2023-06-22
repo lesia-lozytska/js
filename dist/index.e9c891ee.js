@@ -21,6 +21,12 @@ function MyFunc() {
             "Estimations"
         ]
     };
+    document.getElementById("firstName").innerHTML = `${userData.firstName} ${userData.secondName}`;
+    document.getElementById("mail").innerHTML = userData.email;
+    document.getElementById("age").innerHTML = userData.age;
+    document.getElementById("address").innerHTML = `${userData.location.country}, ${userData.location.city}, ${userData.location.street} ${userData.location.streetNumber}`;
+    document.getElementById("position").innerHTML = userData.position;
+    document.getElementById("skills").innerHTML = userData.keySkills.join(",  ");
 }
 
 //# sourceMappingURL=index.e9c891ee.js.map
